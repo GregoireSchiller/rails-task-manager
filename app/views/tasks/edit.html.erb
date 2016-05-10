@@ -1,0 +1,18 @@
+<!-- <form action="/tasks" method="patch">
+  <input type="text" name="task[name]" placeholder="name">
+  <input type="text" name="task[description]" placeholder="description">
+  <input type="hidden" name="task[done]" value="false">
+  <input type="submit">
+</form> -->
+<!--
+<%= form_for(@task) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+  <%= f.label :done %>
+  <%= f.text_field :done %>
+  <%= f.submit %>
+<% end %> -->
+
+<%= render 'form' %>
